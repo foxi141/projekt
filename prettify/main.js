@@ -9,9 +9,8 @@ function pretiffy() {
     plugins: [parserBabel, parserHtml],
     parser: "babel",
   });
-  // document.querySelector(".textarea").value = prettifiedText;
-  console.log(text);
-  // console.log(prettifiedText);
+   document.querySelector(".textarea").value = prettifiedText;
+ 
 }
 
 document.querySelector(".btn").addEventListener("click", () => pretiffy());
